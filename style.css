@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+
+    color: black;
+    /* background-color: aqua; */
+}
+
+div {
+    padding: 20px;
+
+}
+input{
+    border-radius: 20px;
+    padding: 7px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    gap: 20px;
+    font-size: larger;
+}
+
+.sign,
+.login {
+    border-radius: 40px;
+    /* background-color: rgb(145, 232, 203); */
+    
+    margin-right: 10px;
+
+}
+
+.sign {
+    background-color: #50C878;
+    color: white;
+
+}
+
+.login:hover {
+    background-color: #50C878;
+    color: white;
+}
+button:hover{
+    background-color: #50C878;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+button{
+    border-radius: 20px ;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+}
+details{
+    padding: 25px;
+}
+details:hover{
+    background-color: #50C878;
+    cursor: pointer;
+}
+#la{
+    background-color: lightcyan;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+#la:hover{
+    background-color: #50C878;
+}
